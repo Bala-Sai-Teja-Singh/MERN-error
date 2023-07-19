@@ -1,0 +1,24 @@
+main {
+  min-height: 80vh;
+}
+body {
+  /* background: url("../public/images/bg-1.jpg"); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(253, 206, 223);
+  background: radial-gradient(
+    circle,
+    rgba(253, 206, 223, 1) 30%,
+    rgba(240, 221, 246, 1) 65%
+  );
+}
+.my-works-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#Icon {
+  height: 5rem;
+}
